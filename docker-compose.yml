@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  DevEnvironment:
+    build: .
+    image: dev-environment
+    container_name: python_dev_env
+    volumes:
+      - /home/j/Desarrollo/:/usr/src/app
+      - C:\Users\Jesús\OneDrive - UNIR\GitHub Projects\Desarrollo:/usr/src/app
+    stdin_open: true  # Para habilitar la entrada interactiva (útil para shells)
+    tty: true          # Asignar un terminal (útil para shells)
