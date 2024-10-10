@@ -2,10 +2,11 @@
 FROM python:3.12-slim-bookworm
 
 # Establece el directorio de trabajo dentro del contenedor
-WORKDIR /usr/src/app
+WORKDIR /usr/src/app/workspace
 
 # Actualiza los paquetes e instala Git y las dependencias necesarias para cv2
 RUN apt-get update && apt-get install -y \
+    curl \
     git \
     build-essential \
     libgl1-mesa-glx \
