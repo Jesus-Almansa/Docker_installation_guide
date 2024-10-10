@@ -2,7 +2,6 @@
 
 1. [Introducción](#introducción)
 2. [Linux](#linux)
-   - [Configuración Inicial](#configuración-inicial)
    - [Instalación Limpia](#purgar-todo-lo-que-tengas-de-docker-para-hacer-una-instalación-limpia)
    - [Instalación de Docker desde el Repositorio APT](#instalación-de-docker-para-linux-usando-el-repositorio-apt)
    - [Instalación de Docker Compose](#instalación-de-docker-compose)
@@ -26,21 +25,6 @@ Este repositorio tiene como objetivo documentar el proceso de configuración de 
 # Linux
 
 Este tutorial ha sido verificado para las versiones de Ubuntu de la 20 a la 24.
-
-## Instalación de Git y configuración Inicial
-
-En primer lugar, para poder utilizar Git deberemos instalar la herramienta. Podemos hacerlo desde la terminal con el siguiente comando:
-
-```bash
-sudo apt install git
-```
-
-En segundo lugar configuramos las credenciales de Git:
-
-```bash
-git config --global user.name "usuario"
-git config --global user.email "usuario@mail.com"
-```
 
 Para poder realizar una instalación exitosa de docker y todas sus herramientas está bien seguir el tutorial oficial que puedes encontrar en el siguiente enlace: [Docker for Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
